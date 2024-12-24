@@ -20,7 +20,6 @@ Package.onTest(function(api) {
 });
 
 function configure(api) {
-  //api.versionsFrom('1.0');
   api.versionsFrom('2.16');
   api.use('blaze');
   api.use('templating');
