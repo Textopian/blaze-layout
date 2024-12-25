@@ -21,12 +21,16 @@ Package.onTest(function(api) {
 
 function configure(api) {
   api.versionsFrom('2.16');
-  api.use('blaze');
-  api.use('templating');
+  // api.use('blaze');
+  // api.use('templating');
+  // api.use('jquery');
+  api.use('blaze@2.5.0');
+  api.use('templating@1.0.3');
+  api.use('jquery@1.0.0');
   api.use('reactive-dict');
   api.use('underscore');
-  api.use('jquery');
   api.use('tracker');
+
 
   api.addFiles('lib/client/namespace.js', 'client');
   api.addFiles('lib/client/layout.js', 'client');
