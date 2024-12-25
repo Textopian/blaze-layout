@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Layout Manager for Blaze (works well with FlowRouter)',
-  version: '0.0.1',
+  version: '0.0.2',
   git: 'https://github.com/Textopian/blaze-layout',
   name: "carlosalvidrez:blaze-layout"
 });
@@ -24,9 +24,9 @@ function configure(api) {
   // api.use('blaze');
   // api.use('templating');
   // api.use('jquery');
-  api.use('blaze@2.5.0');
+  api.use('blaze@3.0.0');
   api.use('templating@1.0.3');
-  api.use('jquery@1.0.0');
+  api.use('jquery@3.0.0');
   api.use('reactive-dict');
   api.use('underscore');
   api.use('tracker');
